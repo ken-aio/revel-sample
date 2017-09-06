@@ -1,0 +1,12 @@
+{{set . "title" "Home"}}
+{{template "header.html" .}}
+
+<header class="jumbotron" style="background-color:#A9F16C">
+  <div class="container">
+    <div class="row">
+      <h1>Hello {{.name}}</h1>
+      <a href="/">go back</a>
+    </div>
+  </div>
+</header>
+{{template "footer.html" .}}
